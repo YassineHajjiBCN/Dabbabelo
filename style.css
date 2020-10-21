@@ -1,0 +1,158 @@
+html {
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+body{
+  font: 1.6rem Helvetica;
+  height: 100vh;
+  margin: 0;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-areas:
+   "header"
+   "main"
+   "footer";
+  height: 80%;
+}
+ 
+.brand{
+ 
+ font-size: 2.2rem;
+ 
+}
+
+.header-link{
+ 
+  font-size: 1.5rem;
+  
+}
+
+.header{
+  grid-area: header;
+  background-image: url("img/heh.png");
+  min-height: 320px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  padding: 20px 20px;
+}
+
+.header a {
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  
+  
+ 
+}
+
+.header a:hover{
+  color:#FF7DCB;
+}
+
+.header-link a{
+  color: aliceblue;
+  text-decoration: none;
+  margin: 5px; 
+  font-size: 1rem;
+ 
+ 
+}
+
+.header-link a:hover {
+  color:#FF7DCB ;
+}
+
+.boxer{
+  width: 500px;
+  height: 130px;
+  background-color: rgb(255, 255, 255);
+  left: 30%;
+  top: 95%;
+  position: absolute;
+  border-radius: 5px;
+  max-width: 100%;
+  padding: 15px;
+  box-shadow: 0px 3px #bdbaba;
+  border: 0.1px solid #e1e1e1;
+}
+
+.tittel-boxer{
+font-size: 1.3rem ;
+color: #FF7DCB;
+text-align:center;
+
+}
+
+.subtittle-boxer{
+  font-size: 0.8rem;
+  color: #3f3d3e;
+  text-align:center;
+  margin-top: 10px;
+}
+
+.search-container{
+  padding: 5px;
+  border: none;
+  margin-top: 3px;
+  font-size: 0px;
+  text-align: center;
+ 
+  
+}
+.search-container input[type=text] {
+  height:50px;
+  width: 300px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+ 
+
+.main{
+  grid-area: main;
+ 
+}
+
+.bloc{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+ 
+
+.product-image{
+  float: left;
+  height: 50px;
+  width: 50px;
+  padding: 7px;
+  
+}
+
+.product-name a{
+  color: #595858;
+  font-size: 15px ;
+
+ 
+}
+
+ .footer{
+  grid-area: footer;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  align-items: center;
+}
